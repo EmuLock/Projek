@@ -9,6 +9,12 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+#mark {
+	background-color: rgba(0,0,0,0.5);
+	color: greenyellow;
+	font-family: inherit;
+}
+
 
 #quiz {
 	background-position: center;

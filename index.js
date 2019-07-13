@@ -61,7 +61,7 @@ function check(){
     
 	
 	var pictures = [ "harrypotter.jpg",
-					"smilingvoldy.gif", "smilingtom.gif", "avadakedavra.jpg", "CRUCCIO.gif", "bella.gif" ]
+					"draco.gif", "smilingtom.gif", "mudblood.gif", "CRUCCIO.gif", "bella.gif" ]
 	var messages = ["Are you sure you're not the boy who lived?You know waay too much about the Dark Lord",
 	 "The Dark Lord is pleased", 
 	 "Voldemort is dissapointed but he will not kill you",

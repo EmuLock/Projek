@@ -5,6 +5,15 @@ body, html {
 }
 
 
+@font-face {
+  font-family: "HarryP";
+  src: url("fonts/HARRYP__.TTF");
+  /* src: 
+  url("css/fonts/Harabara.woff") format("woff"),
+  url("css/fonts/Harabara.otf") format("opentype"),
+  url("css/fonts/Harabara.svg#filename") format("svg"); */
+  }
+
 /* mouse over link */
 a:hover {
   color: red;
@@ -27,7 +36,7 @@ a:link {
 /* The hero image */
 .hero-image {
 /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), #00000080), url("PICS/voldemort.jpg");
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), #00000080), url("voldemort.jpg");
 
 /* Set a specific height */
 height: 100%;
@@ -47,7 +56,15 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 color: white;
-font-family: fantasy;
+font-family: "HarryP" , Arial, sans-serif;
+}
+
+.hero-text > h1 {
+  font-size: 81px;
+}
+
+.hero-text > p {
+  font-size : 35px;
 }
 
 
