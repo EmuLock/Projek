@@ -1,6 +1,6 @@
 body {
 	font-family: 'Notable';
-    background-image: url("Darkmark.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), #00000080), url("Darkmark.jpg");
 	background-color: #cccccc;
 	height: 100vh;
 }
@@ -10,15 +10,9 @@ body {
 	src: url("fonts/HARRYP__.TTF");}
 
 #header {
-    color:#ff0000;
 	font-family: "HarryP" , Arial, sans-serif;
-}
-
-#mark {
-	background-color: rgba(0,0,0,0.5);
 	color: lime;
-	font-family: inherit;
-	font-size: 65px;
+	font-size: 75px;
 }
 
 
@@ -68,7 +62,7 @@ input {
 
 #after_submit {
 	visibility: hidden;
-	background: gree;
+	background: greenyellow;
 	padding: 10px 20px 10px 20px;
 	width: 400px;
 	border-radius: 20px;
@@ -89,16 +83,18 @@ input {
 #mc {
 	display: inline;
 } body {
-	font-family: 'Lato', sans-serif;
+	font-family: "HarryP" , Arial, sans-serif;
+	color: limegreen;
+	font-size: 40px;
 }
 
 
 
 #quiz {
-	margin-left: 10px;
-	background: #d2def2;
+	margin-left: 200px;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), #00000080);
 	padding: 10px 20px 10px 20px;
-	width: 400px;
+	width: 500px;
 	border-radius: 20px;
 	float: left;
 
@@ -141,7 +137,7 @@ input {
 
 #after_submit {
 	visibility: hidden;
-	background: #ff5459;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), #00000080);
 	padding: 10px 20px 10px 20px;
 	width: 400px;
 	border-radius: 20px;
