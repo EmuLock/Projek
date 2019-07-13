@@ -39,7 +39,7 @@ a:link {
 background-image: linear-gradient(rgba(0, 0, 0, 0.5), #00000080), url("voldemort.jpg");
 
 /* Set a specific height */
-height: 100vh;
+height: 100%;
 
 /* Position and center the image to scale nicely on all screens */
 background-position: center;
