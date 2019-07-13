@@ -15,9 +15,9 @@ body {
 
 #mark {
 	background-color: rgba(0,0,0,0.5);
-	color: #ff0000;
+	color: lime;
 	font-family: inherit;
-	font-size: 45px;
+	font-size: 65px;
 }
 
 
