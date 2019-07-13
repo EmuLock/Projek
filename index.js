@@ -15,8 +15,9 @@ function check(){
 
 
 	if (question1 == "Voldemort") {
-		correct++;
+		correct++ ;
 }
+	
 	if (question2 == "Seven") {
 		correct++;
 }	
@@ -59,8 +60,14 @@ function check(){
     }
     
 	
-	var pictures = [ ""]
-	var messages = ["Are you sure you're not the boy who lived?You know waay too much about the Dark Lord", "The Dark Lord is pleased", "Voldemort is dissapointed but he will not kill you", "Not bad...for a filthy Mudblood", "CRUCIO" ,  "AVADA KEDAVRAAAAA"];
+	var pictures = [ "harrypotter.jpg",
+					"smilingvoldy.gif", "smilingtom.gif", "avadakedavra.jpg", "CRUCCIO.gif", "bella.gif" ]
+	var messages = ["Are you sure you're not the boy who lived?You know waay too much about the Dark Lord",
+	 "The Dark Lord is pleased", 
+	 "Voldemort is dissapointed but he will not kill you",
+	  "Not bad...for a filthy Mudblood", 
+	  "CRUCIO" , 
+	   "AVADA KEDAVRAAAAA"];
 	var score;
 
 	if (correct == 0 ) {
