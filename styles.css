@@ -1,6 +1,28 @@
 body, html {
   height: 100%;
+  text-align: center;
+  vertical-align: middle;
 }
+
+
+/* mouse over link */
+a:hover {
+  color: red;
+  font-size: 200% ;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+a:link {
+  text-decoration: none;
+  color: blue;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
 
 /* The hero image */
 .hero-image {
