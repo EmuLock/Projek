@@ -20,19 +20,66 @@ function check(){
 	if (question2 == "Seven") {
 		correct++;
 }	
-	if (question3 == "Albany") {
+	if (question3 == "31 December") {
 		correct++;
-	}
+    }
+    
+    if (question4 == "Amortentia") {
+		correct++;
+    }
+    
+
+    if (question5 == "Yew") {
+		correct++;
+    }
+    
+
+    if (question6 == "Parseltongue") {
+		correct++;
+    }
+    
+
+    if (question7 == "Abraxas") {
+		correct++;
+    }
+    
+
+    if (question8 == "Halfblood") {
+		correct++;
+    }
+    
+
+    if (question9 == "Slytherin") {
+		correct++;
+    }
+    
+
+    if (question11 == "Grindlewald") {
+		correct++;
+    }
+    
 	
-	var pictures = ["img/win.gif", "img/meh.jpeg", "img/lose.gif"];
-	var messages = ["The Dark Lord is pleased", "Voldemort is dissapointed but he will not kill you", "Not bad...for a filthy Mudblood", "CRUCIO" ,  "AVADA KEDAVRAAAAA"];
+
+	var messages = ["Are you sure you're not the boy who lived?You know waay too much about the Dark Lord", "The Dark Lord is pleased", "Voldemort is dissapointed but he will not kill you", "Not bad...for a filthy Mudblood", "CRUCIO" ,  "AVADA KEDAVRAAAAA"];
 	var score;
 
-	if (correct == 0) {
+	if (correct == 0 ) {
+		score = 5;
+    }
+    
+	if (correct > 0 && correct < 4) {
+		score = 4;
+	}
+    
+	if (correct > 3 && correct < 6) {
+		score = 3;
+	}
+    
+	if (correct > 5 && correct < 8 ) {
 		score = 2;
 	}
 
-	if (correct > 0 && correct < 9) {
+	if (correct > 7 && correct < 10) {
 		score = 1;
 	}
 
