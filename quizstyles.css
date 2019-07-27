@@ -158,3 +158,12 @@ input {
 #mc {
 	display: inline;
 } 
+
+
+/adjusting to be mobile friendly/
+
+@media screen and (max-width: 992px) {
+	body {
+	  font-size:35px;
+	}
+  }
