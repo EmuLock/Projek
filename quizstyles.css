@@ -163,7 +163,7 @@ input {
 /adjusting to be mobile friendly/
 
 @media screen and (max-width: 992px) {
-	body {
+	body > h2 {
 	  font-size:35px;
 	}
   }

@@ -71,7 +71,7 @@ font-family: "HarryP" , Arial, sans-serif;
 }
 
 @media screen and (max-width: 992px) {
-  body {
+  body > h2 {
     font-size: 35px;
   }
 }
