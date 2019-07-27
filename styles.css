@@ -70,6 +70,11 @@ font-family: "HarryP" , Arial, sans-serif;
   color: limegreen;
 }
 
+@media screen and (max-width: 992px) {
+  body {
+    font-size: 35px;
+  }
+}
 
 
 
